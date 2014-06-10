@@ -18,8 +18,33 @@ Depois foi apresentada a freqüência de pontos por quadrícula, onde discutimos
 
 \subsection{Módulo 3 - Séries espaciais e superfícies geográficas}
 
+O módulo 3 foi o mais complexo do curso, com muitas teorias matemáticas (que não são tão complexas conforme vamos estudando, mas que assustam um pouco à primeira vista). 
 
+Começamos o módulo revendo conceitos estatísticos de dependência e independência entre eventos, para estudarmos dependência espacial e dependência temporal entre eventos. Aqui, vimos que eventos próximos temporalmente entre si demonstram maior influência de um sobre o outro, caracterizando uma dependência temporal entre eles. No caso de dependência espacial, podemos trabalhar com a idéia da autocorrelação espacial, onde quanto mais próximos espacialmente de um evento, mais parecidos são os dados no entorno deste local. Porém, precisamos sempre pensar: Até que ponto a posição interfere no fenômeno?
+
+Mais adiante no conteúdo do módulo, vimos como trabalhar com estimativas de dados utilizando a autocorrelação espacial, semivariogramas, interpolações (que geram melhores resultados quando há dependência espacial).
+
+Em um módulo mais complexo, a lição que fica é de que os números, apesar de importantes, não determinam o lugar, que é a variável mais importante da nossa análise.
 
 \subsection{Módulo 4 - Funções básicas para modelagem de mapas em SIG}
 
+Neste módulo, esperava alguns exemplos um pouco mais práticos, mas acredito que a abordagem utilizada foi mais proveitosa. Ao discutirmos as funções fuzzy e booleanas, pude pensar em mais opções de representação, conforme a característica do evento que está sendo mapeado.
+
+Se o processo de decisão fuzzy parte do pressuposto que não há certeza em nenhuma variável dentro da área, ele atua de forma probabilística. A classificação fuzzy pode ser linear ou trapezoidal. Aqui, entendi que a fuzzificação linear faz mais sentido quando o objetivo é transformar séries grandes que possuem uma distribuição normal, com pouca dependência espacial. Do contrário, a representação trapezoidal gera melhores resultados. A utilização de buffers para determinar distâncias para uma classe também foi discutida.
+
+Também conversamos sobre o índice de agregação local de Cramer, que avalia a agregação de características qualitativas e é usado quando o número de categorias de dois mapas são diferentes.
+
+Por fim, funções booleanas, com operações lógicas e/ou condicionais (OR, AND, NOT) para a combinação de objetos ou de campos de diferentes mapas em um só.
+
 \subsection{Módulo 5 - Introdução à modelagem de interação espacial}
+
+No último módulo, começamos falando sobre a diferença entre as distâncias euclidianas e em rota, assunto que me interessa bastante pois trabalha com a idéia de redes, circuitos espaciais e outros conceitos em que facilmente conseguimos analisar com olhos da geografia humana.
+
+A distância euclidiana é a medida do comprimento da reta, medida em metros, relacionada ao espaço absoluto, e não considera os obstáculos que podem existir na trajetória. Já a distância em rota é medida em tempo, relacionada ao espaço relativo, calculada com base no traçado das redes geográficas e dos circuitos espaciais. Essas redes e circuitos podem ser materiais ou imateriais, depende do dado sendo analisado.
+
+Depois, o Princípio do Decaimento com a Distância, de Chapman, que trabalha com a idéia de que a interação espacial entre dois lugares diminui com o aumento da distância métrica ou horária entre eles. Mas com a ressalva que este princípio depende da duração da rota e do tipo de carga (o exemplo de aula dos tijolos e da televisão, que indicam que produtos de valor alto viajam mais longe esclarece essa ressalva). Ainda conversamos sobre as influências locais nas interações espaciais, como a especulação imobiliária. Aqui, partimos para o estudo das probabilidades de interação espacial, considerando motivadores de locomoção de um ponto até outro em uma cidade, por exemplo. Depois, vimos alguns modelos gravitacionais.
+
+Por fim, o módulo me fez refletir se um mapa é sempre a melhor representação de um fenômeno espacial. Gráficos, matrizes, grafos podem substituir a representação tradicional em muitos casos.
+
+
+

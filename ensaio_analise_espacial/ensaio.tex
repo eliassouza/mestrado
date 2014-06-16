@@ -61,11 +61,6 @@
 	\else
 		%Citado #1 vezes nas páginas #2.%
 	\fi}%
-% ---
-
-
-
-% Novo list of (listings) para QUADROS
 
 \newcommand{\quadroname}{Quadro}
 \newcommand{\listofquadrosname}{Lista de quadros}
@@ -103,39 +98,14 @@
 	bookmarksdepth=4
 }
 \makeatother
-% --- 
 
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
-
-% O tamanho do parágrafo é dado por:
 \setlength{\parindent}{1.3cm}
 
 % Controle do espaçamento entre um parágrafo e outro:
 \setlength{\parskip}{0.2cm}  % tente também \onelineskip
 
-% ---
-% compila o indice
-% ---
 \makeindex
-% ---
-
-% ----
-% Início do documento
-% ----
 \begin{document}
-
-% Retira espaço extra obsoleto entre as frases.
-\frenchspacing 
-
-% ----------------------------------------------------------
-% ELEMENTOS PRÉ-TEXTUAIS
-% ----------------------------------------------------------
-% \pretextual
-
-% \imprimircapa
-%\imprimirfolhaderosto
 
 \textual
 \input{identificacao.tex}
